@@ -1,0 +1,472 @@
+@font-face {
+   font-family: 'Rubik';
+   src: url('../font/Rubik-Bold.woff2') format('woff2'),
+       url('../font/Rubik-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Rubik';
+   src: url('../font/Rubik-Bold.woff2') format('woff2'),
+       url('../font/Rubik-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Rubik';
+   src: url('../font/Rubik-ExtraBold.woff2') format('woff2'),
+       url('../font/Rubik-ExtraBold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+*{
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+
+body{
+   margin: 0px;
+   font-family: "Rubik", "Arial", sans-serif;
+}
+
+img{
+   vertical-align: middle;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+ }
+
+
+.container{
+   width: 1240px;
+   margin: 0px auto;
+   padding: 0px 20px;
+}
+
+.header-top{
+   padding: 30px 0px;
+   background: #F6F6F6;
+   margin-bottom: 30px;
+}
+
+
+.header-top-inner{
+   display: flex;
+   align-items: center;
+}
+
+.logo-link{
+   margin-right: 35px;
+}
+
+.logo-img{
+   width: 276px;
+   height: 45px;
+}
+
+
+.currency-list{
+   display: flex;
+   align-items: center;
+   margin: 0px;
+   margin-right: auto;
+   padding-left: 0px;
+}
+
+.currency-item{
+   margin-right: 25px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 18.96px;
+   color: #555;
+}
+
+.currency-span{
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 19px;
+   color: #2959CE;
+}
+
+.languages-box{
+   margin-right: 25px;
+   width: 70px;
+   padding: 3px;
+   background: #DCE6FF;
+   border-radius: 39px;
+}
+
+.languages-link{
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 15px;
+   color: #A6A6A6;
+}
+
+.languages-active{
+   padding: 8px 7px 7px;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 30px;
+   color: #000000;
+   border-radius: 50%;
+   background: #FFFFFF;
+}
+
+.login{
+   padding: 13px 20px;
+   background: #7296EC;
+   border-radius: 10px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   color: #FFFFFF;
+}
+
+
+/*---------------------- header top qismi tugadi--------------------- */
+
+
+
+.header-middle{
+   border-bottom: 1px solid #D1D1D1;
+   margin-bottom: 40px;
+}
+
+.middle-list{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 0px;
+}
+
+.middle-item{
+
+}
+
+.middle-link{
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+   color: #7F7F7F;
+}
+
+
+
+.header-bottom{
+   margin-bottom: 50px;
+}
+
+
+/* tugadi */
+
+
+
+.book{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   background: #F6F6F6;
+   border-radius: 15px;
+   margin: -15px;
+}
+
+.phone{
+   padding-right: 10px;
+   width: 360px;
+}
+
+.phone-link{
+   font-weight: 500;
+   font-size: 20px;
+   color: #000000;
+}
+
+.phone-text{
+   color: #4A4B4C;
+}
+
+
+.floor{
+   display: flex;
+   align-items: center;
+}
+
+.floor-img{
+   padding-right: 10px;
+}
+
+.floor-text{
+   font-weight: 400; 
+   font-size: 12px;
+   color: #5E5F61;
+}
+
+
+.floor-time{
+   font-weight: 400; 
+   font-size: 12px;
+   color: #5E5F61;
+}
+
+.goose-box{
+   background-image: url(../images/Group\ 35\ 1.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 1050px;
+   height: 100px;
+   margin: 0px auto;
+   margin-top: 60px;
+}
+
+.goose-item{
+   padding-left: 29px;
+   width: 404px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 26px;
+   color: #000000;
+}
+
+
+
+.goose-link{
+   margin-right: 79px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+   padding: 13px 30px;
+   color: #FFFFFF;
+   background: #F78B3B;
+   border-radius: 10px;
+}
+
+
+.new-box{
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+
+.new-item{
+   margin-bottom: 20px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 28px;
+   color: #000000;
+}
+
+.pages-item{
+   padding-left: 0px;
+}
+
+.pages-list{
+   background-image: url(../images/Rectangle\ 88.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   display: flex;
+   width: 797px;
+   height: 207px;
+   padding: 20px 20px 23px 17px;
+   margin-bottom: 10px;
+}
+
+.pages-img{
+   padding-right: 15px;
+}
+
+
+.pages-link{
+   display: flex;
+   /* align-items: flex-start; */
+}
+
+.pages-text{
+   width: 535px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 26px;
+   color: #000000;
+   margin-top: 0px;
+   margin-bottom: 10px;
+}
+
+.pig-active{
+   background-image: url(../images/Показать\ еше.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+
+
+
+.text-pages-active{
+   width: 535px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #4A4B4C;
+}
+
+.super-box{
+   display: flex;
+   align-items: center;
+}
+
+.super-text{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   color: #5E5F61;
+}
+
+.super-time{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+
+color: #5E5F61;
+}
+
+
+/* section qismi tugadi */
+
+.father-box{
+   width: 393px;
+   height: 502px;
+}
+
+.father-item{
+   background-image: url(../images/Rectangle\ 90.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   padding-left: 0px;
+   padding: 2px 20px 25px 17px;
+}
+.father-list+.father-list{
+   padding-bottom: 20px;
+   border-bottom: 1px solid #D2D2D2;
+} 
+
+.father-hero{
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 28px;
+   color: #000000;
+}
+
+.father-text{
+   width: 311px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+   color: #000000;
+   margin: 0px;
+}
+.father-text{
+   margin-top: 20px;
+}
+.mother-box{
+   display: flex;
+   align-items: center;
+   margin: 0px;
+}
+
+.mother-text{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 15px;
+   color: #5E5F61;
+}
+
+
+
+/* sectionla tugadi */
+
+
+footer{
+   background-color: #7297EF;
+   margin-top: 200px;
+   padding: 40px 150px 40px;
+}
+
+
+.footer-item{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 0px;
+   border-bottom: 1px solid #CECECE;;
+}
+
+.footer-list{
+   
+}
+
+.footer-text{
+   width: 229px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 19px;
+   color: #FFFFFF;
+}
+
+
+.footer-link{
+   display: block;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   color: #FFFFFF;
+}
+
+.table-box{
+   display: flex;
+   align-items: center;
+   justify-content: space-between
+}
+
+
+.table-text{
+   width: 161px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 23px;
+   color: #FFFFFF;
+}
+
